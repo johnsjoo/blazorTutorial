@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WeatherDataManagement.Api.Models;
+using WeatherDataManagement.Models;
 
 namespace WeatherDataManagement.Api.Controllers
 {
@@ -33,7 +34,24 @@ namespace WeatherDataManagement.Api.Controllers
             }
         }
 
-        
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<WeatherData>> GetWeather(int id) 
+        {
+            try
+            {
+                var result = await weatherDataRepository.GetWeather(id);
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return result;
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error retriving data from database");
+            }
+        }
             
     }
 }
