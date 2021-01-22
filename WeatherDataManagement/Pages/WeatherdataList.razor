@@ -1,0 +1,32 @@
+﻿@page "/"
+@inherits BaseWeatherDataList
+<h3>WeatherdataList</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scop="col">ID</th>
+            <th scop="col">Temp</th>
+            <th scop="col">%</th>
+            <th scop="col">Date</th>
+            <th scop="col">Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var weatherdata in Weatherdatas)
+        {
+        <tr>
+            <th scope="row">@weatherdata.Id</th>
+            <td>@weatherdata.Temp</td>
+            <td>@weatherdata.Humidity</td>
+            <td>@weatherdata.DateAndTime.ToShortDateString()</td>
+            <td>@weatherdata.Location</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+
+}

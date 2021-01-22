@@ -1,0 +1,9 @@
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\bin\Debug\netstandard2.1\WeatherDataManagement.Models.deps.json
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\bin\Debug\netstandard2.1\WeatherDataManagement.Models.dll
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\bin\Debug\netstandard2.1\WeatherDataManagement.Models.pdb
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.csprojAssemblyReference.cache
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.AssemblyInfoInputs.cache
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.AssemblyInfo.cs
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.csproj.CoreCompileInputs.cache
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.dll
+D:\It-Högskolan\Blazor\blazorTutorial\WeatherDataManagement.Models\obj\Debug\netstandard2.1\WeatherDataManagement.Models.pdb
